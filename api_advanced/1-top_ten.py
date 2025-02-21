@@ -34,5 +34,6 @@ def top_ten(subreddit):
     except (ValueError, KeyError):
         print("None")
 
+
 # Example Usage
 # top_ten("programming")  # Should print top 10 post titles or None
