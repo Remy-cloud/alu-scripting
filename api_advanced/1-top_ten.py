@@ -22,7 +22,7 @@ def top_ten(subreddit):
     )
 
     if response.status_code != 200:
-        print(None)
+        print("OK")
         return
 
     jsonData = response.json()
