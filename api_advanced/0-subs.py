@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
-Queries the Reddit API to return the number of subscribers
-for a given subreddit.If the subreddit is invalid, returns 0
+Function that uses the Reddit API and returns the
+number of subscribers for a given subreddit on Reddit
 """
 
 import requests
